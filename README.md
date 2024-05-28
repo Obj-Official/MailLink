@@ -1,0 +1,3 @@
+# MailLink
+A frontend solution which enables sending mails to a given email account from the 
+client end without serverside code using a mailing API. This codes provides a form which collects some Biodata including profile picture and ID. It then programmatically fills in the written data into a PDF and sends the The Biodata as Mail Body along with the PDF and two Images (Profile picture and ID) as attachments to the destination email.

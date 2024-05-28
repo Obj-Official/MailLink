@@ -1,0 +1,165 @@
+.form{
+  margin: 60px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 2px 5px 8px 2px rgba(0,0,0,0.2);
+}
+#UMFB-Logo{
+  width: 500px;
+  margin: 20px;
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.note{
+  padding: 15px;
+  text-align: left;
+  margin-left: 100px;
+}
+.red-asteriks{
+  color: red;
+}
+label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+
+/* container wrapping input/select and label */
+.item-container{
+  display: inline-block;
+  margin: 15px;
+  text-align: left;
+}
+/* all input */
+.entries{
+  width: 290px;
+  height: 40px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(240, 239, 239);
+}
+/* all select */
+.list{
+  width: 310px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(240, 239, 239);
+}
+option{
+  padding: 10px;
+  height: 10px;
+  margin: 20px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-container{
+  display: flex;
+  padding: 0px 40px;
+  justify-content: center;
+}
+.image{
+  width: 280px;
+  padding: 10px 10px;
+  margin: 0px 20px;
+  font-size: 15px;
+  text-align: left;
+}
+.no-image{
+  height: 200px;
+  color: rgb(73, 73, 73);
+}
+.picture-box{
+  display: inline-block;
+  height: 200px;
+  color: lightgray;
+  line-height: 200px;
+  text-align: center;
+  border: 0.5px solid gray;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.select-image{
+  display: inline-block;
+  color: black;
+  font-size: 15px;
+}
+
+/* submit button */
+#submit{
+  background-color: rgb(115, 115, 115);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px 50px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+/*Reshapes page when device width reduces e.g Phone Device width*/
+@media (max-width: 880px){
+  .form{
+    margin: 10px;
+  }
+  .note{
+    margin: 10px;
+  }
+  .section-head{
+    width: 75%;
+  }
+  .long, .mid{
+    width: 310px;
+  }
+  .hr-cont{
+    padding: 0px;
+    width: 0px;
+  }
+  .section-head{
+   font-size: 17px;
+  }
+  #images-subsection{
+    display: flex;
+    margin: 5px;
+  }
+  .img-input-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .img-item{
+    width: 130px;
+    height: 255px;
+    left: 0px;
+  }
+  .img-input{
+    width: 120px;
+    height: 20px;
+    font-size: 11px;
+  }
+  .img-container{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0px 0px;
+  }
+  .image{
+    width: 200px;
+    padding: 2px;
+    margin: 15px 0px;
+  }
+  #spouse-address{
+    width: 290px;
+  }
+  .modal-content {
+  width: 80%;
+  }
+}
